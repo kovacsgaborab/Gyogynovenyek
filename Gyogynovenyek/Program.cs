@@ -29,7 +29,7 @@ namespace Gyogynovenyek
         {
             int a = Novenyek.Count;
 
-            Console.WriteLine("A növények száma: {0}", a);
+            Console.WriteLine("1. Feladat: Növények száma: {0}", a);
         }
 
         static void Masodik()
@@ -71,7 +71,8 @@ namespace Gyogynovenyek
             {
                 if (n.Idotartam==max)
                 {
-                    Console.WriteLine("\n{0} : {1}", n.Nev, max);
+                    Console.WriteLine("\n3. Feladat: Legtöbb idő, amíg gyűjthető: {0}", max);
+                    Console.WriteLine("Növény(ek): {0}", n.Nev);
                 }
             }
 
@@ -89,7 +90,7 @@ namespace Gyogynovenyek
 
             atlag = szum / Novenyek.Count;
 
-            Console.WriteLine("Az Időtartam átlaga: {0}", atlag);
+            Console.WriteLine("4. Feladat: Átlagos gyűjthető időtartam: {0}", atlag);
         }
 
         static void Main(string[] args)
